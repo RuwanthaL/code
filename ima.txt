@@ -1,0 +1,7 @@
+php artisan make:migration create_employees_table
+php artisan migrate
+php artisan make:controller EmployeeController --resource
+php artisan make:model Employee
+php artisan storage:link
+php artisan serve
+localhost:8000/employee
